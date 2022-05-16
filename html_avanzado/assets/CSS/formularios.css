@@ -1,0 +1,89 @@
+form {
+    margin: 2rem auto;
+    width: 400px;
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+    background: #00ffff20;
+}
+
+hr {
+    border: #69696980 5px solid;
+    border-radius: 5px;
+}
+
+input {
+    width: 190px;
+    height: 30px;
+    font-size: 14px;
+    border: none;
+    display: block;
+    margin: 10px auto;
+    transition: .4s;
+}
+
+select {
+    width: 190px;
+    height: 30px;
+    font-size: 14px;
+    border: none;
+    display: block;
+    margin: 10px auto;
+    transition: .4s;
+}
+
+input:hover, select:hover{
+    border-radius: 5px;
+    border-bottom: 3px solid #ff00ffd0;
+    border-right: 1.5px solid #ff00ffd0;
+    transition-timing-function: ease-in-out;
+}
+
+input[type=submit] {
+    border: 1px solid black;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .6s;
+}
+
+input[type=submit]:hover {
+    transition-timing-function: ease-in-out;
+    border: 0px;
+    background: rgb(0, 200, 0);
+    color: white;
+}
+
+input[type=reset] {
+    border: 1px solid black;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .6s;
+}
+
+input[type=reset]:hover {
+    transition-timing-function: ease-in-out;
+    border: 0px;
+    background: rgb(186, 43, 0);
+    color: white;
+}
+
+div{
+    margin: 0 auto;
+    text-align: end;
+}
+
+div > label {
+    width: 100px;
+}
+
+div > input {
+    margin: 10px 10px;
+    display: inline-block;
+    transition: .55s;
+}
+
+div >input:hover {
+    transition-timing-function: ease-in-out;
+}

@@ -1,0 +1,14 @@
+{
+  "name": "pruebas-unitarias2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "para_probar.js",
+  "scripts": {
+    "test": "jest --verbose"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^28.1.0"
+  }
+}

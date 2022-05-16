@@ -1,0 +1,38 @@
+/*
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    width: 1200px;
+    margin: 0 auto;
+}
+*/
+.forma {
+    width: 50%;
+    height: 200px;
+    background-color: #f2f2f2;
+    margin: 1rem, auto;
+    padding: 5px;
+}
+
+.color {
+    background-color: blue;
+    border: red solid 3px;
+}
+
+p {
+    width: 70%;
+    padding: 20px;
+    border: 2px solid black;
+    margin: 1rem auto;
+}
+a {
+    width: 50%;
+    padding: 10px;
+    border: 2px solid red;
+    display: block;
+    text-align: center;
+    margin: 1rem auto;
+}

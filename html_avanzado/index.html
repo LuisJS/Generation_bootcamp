@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/CSS/estilos.css">
+    <title>HTML Avanzado</title>
+    
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="">Perritos chulos</a></li>
+            <li><a href="">Cuidado de perritos</a></li>
+            <li><a href="#main-p">Contactanos</a></li>
+            <li><a href="#tablas">Tablas</a></li>
+        </ul>
+    </nav>
+    <h2 id="tablas">Tablas</h2>
+    <div class="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Nombre</th>
+                    <th>Descripción</th>
+                    <th>Precio</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Perrito 1</td>
+                    <td>Perrito de la calle</td>
+                    <td>$100</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Perrito 2</td>
+                    <td>Perrito de la calle</td>
+                    <td>$100</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Perrito 3</td>
+                    <td>Perrito de la calle</td>
+                    <td>$100</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td class="total" colspan="3">Total:</td>
+                    <td>$300</td>
+                </tr>
+            </tfoot>
+        </table>
+
+        <!--Tabla copiada de wikipedia-->
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="4">
+                        <h2>Recordings of the Sei per Pianoforte</h2>
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        Year
+                    </th>
+                    <th>
+                        Pianist
+                    </th>
+                    <th>
+                        Label
+                    </th>
+                    <th>
+                        Ref
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1997</td>
+                    <td>Konstantin Scherbakov</td>
+                    <td>Naxos Records</td>
+                    <td>[69]</td>
+                </tr>
+                <tr>
+                    <td>2000</td>
+                    <td>Riccardo Sandiford</td>
+                    <td>Bongiovanni</td>
+                    <td>[70]</td>
+                </tr>
+                <tr>
+                    <td>2016</td>
+                    <td>Michelle D'Ambrosio</td>
+                    <td>Brilliant Classics</td>
+                    <td>[71]</td>
+                </tr>
+                <tr>
+                    <td>2021</td>
+                    <td>Giovanna Gatto</td>
+                    <td>Toccata Classics</td>
+                    <td>[72]</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="table-container-2">
+        <table>
+            <thead>
+                <h1>Tablas con celdas extendidas</h1>
+                <h2>Abecedario en clave</h2>
+            </thead>
+            <tbody>
+                <tr>
+                    <td colspan="3">alfa</td>
+                    <td>bravo</td>
+                    <td rowspan="2">charlie</td>
+                </tr>
+                <tr>
+                    <td>delta</td>
+                    <td>echo</td>
+                    <td>foxtrot</td>
+                    <td>golf</td>
+                </tr>
+                <tr>
+                    <td>hotel</td>
+                    <td colspan="3" rowspan="2">india</td>
+                    <td>juliet</td>
+                </tr>
+                <tr>
+                    <td>kilo</td>
+                    <td>lima</td>
+                </tr>
+                <tr>
+                    <td>mike</td>
+                    <td>november</td>
+                    <td>oscar</td>
+                    <td>papa</td>
+                    <td>quebec</td>
+                </tr>
+            </tbody>
+            <tfoot></tfoot>
+        </table>
+    </div>
+</body>
+</html>

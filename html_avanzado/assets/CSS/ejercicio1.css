@@ -1,0 +1,52 @@
+body {
+    background: aquamarine;
+}
+
+h1 {
+    text-align: center;
+}
+
+mark {
+    background: transparent;
+}
+
+span {
+    color: whitesmoke;
+}
+
+table {
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
+tr td {
+    width: 230px;
+    text-align: start;
+    border: 1px solid black;
+}
+
+
+strong {
+    color: red;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.strong {
+    font-weight: bold;
+    text-align: center;
+}
+
+.bg-orange {
+    background: rgb(218, 141, 0);
+}
+
+.bg-dark {
+    background: black;
+}
+
+.bg-yellow {
+    background: greenyellow;
+}
