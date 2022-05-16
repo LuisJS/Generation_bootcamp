@@ -1,0 +1,27 @@
+table, tr, td, th {
+    border: 1px solid black;
+}
+body {
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+.estiloFuenteCursiva {
+    font-style: italic;
+}
+.estiloFuenteNegritas {
+    font-weight: bold;
+}
+.fondoCeldaNegro {
+    background: black;
+}
+.fondoCeldaNaranja {
+    background: rgb(236, 90, 37);
+}
+h1 {
+    text-align: center;
+}
+td {
+    padding: 1px;
+    margin: 1;
+    border: 1px double black;
+}

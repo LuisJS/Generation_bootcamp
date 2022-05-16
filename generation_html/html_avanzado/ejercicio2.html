@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/ejercicio2.css">
+    <title>Ejercicio 2</title>
+</head>
+<body>
+    <form class="formulario" action="">
+        <h2>Datos del comprador</h2>
+        <div class="nombre">
+            <label class="acomodoLabel" for="nombre">Nombre</label>
+            <input class="bordeCampo" type="text" id="nombre" placeholder="Nombre" required>
+        </div>
+        <div class="correo">
+            <label class="acomodoLabel"for="correo">Email</label>
+            <input class="bordeCampo" type="email" id="correo" placeholder="ejemplo@um.es" required>
+        </div>
+        <div class="email">
+            <label class="acomodoLabel"for="telefono">Teléfono</label>
+            <input class="bordeCampo" type="tel" id="telefono" placeholder="Ej. +34668899999">
+        </div>
+        <div class="pais">
+            <label class="acomodoLabel"for="pais">País</label>
+            <input class="bordeCampo" type="text" id="pais" required>
+        </div>
+        <h2>Datos de la tarjeta de credito o debito</h2>
+        <div class="numero">
+            <label class="acomodoLabel" for="numero">Número</label>
+            <input class="bordeCampo" type="number" id="numero" placeholder="Ej. 5555-4444-3333-2222">
+        </div>
+        <div class="nombreTarjeta">
+            <label class="acomodoLabel"for="nombreTarjeta">Nombre</label>
+            <input class="bordeCampo" type="text" id="nombreTarjeta" placeholder="Nombre que figura en la tarjeta" required>
+        </div>
+        <br>
+        <div class="enviar">
+            <input class="btn-enviar" type="submit" value="Confirmar pedido">
+        </div>
+    </form>
+
+</body>
+</html>

@@ -1,0 +1,7 @@
+.bordeCampo{
+    border-color: red;
+}
+.acomodoLabel{
+    display: inline-block;
+    width: 100px;
+}

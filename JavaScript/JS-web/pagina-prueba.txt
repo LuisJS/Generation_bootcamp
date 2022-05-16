@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<title>Mi página</title>
+</head>
+<body>
+<h1>Título</h1>
+</body>
+</html>

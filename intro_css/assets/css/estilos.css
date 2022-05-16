@@ -1,0 +1,57 @@
+/* selector de etiqueta */
+/* elemento HTML {
+    
+ } */
+ /* .cuadro {
+     width: 100px;
+     height: 100px;
+     background-color: greenyellow !important; /* 'important Da prioridad al estiolo que se va aplicar. Es mala practica utilizar más de una vez.
+     border: 1px solid red;
+     border-radius: 10%;
+ } */
+
+
+/* :root{
+    Se  puede aplicar a todo HTML
+} */
+
+/*  #forma{
+    width: 100px;
+    height: 100px;
+    background-color: rgba(0, 0, 255, .2);
+ } */
+/* 
+ *{
+    background-color: blue; 
+ } */
+
+ .color {
+     background-color: aquamarine; 
+}
+
+.color {
+    background-color: blue; 
+}
+
+.color {
+    background-color: blueviolet; 
+}
+
+body{
+    background-color: pink;
+}
+
+.forma{
+    height: 100px;
+    width: 300px;
+}
+
+.borde{
+    border-top: 3px solid black;
+    border-right: 3px dashed blue;
+    border-bottom: 3px groove brown;
+    border-left: 3px double yellow;
+    border: 3px solid black;
+    text-align: center;
+    line-height: 100px;
+}

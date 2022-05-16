@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0%;
+}
+
+.div1 {
+    background-color: aqua;
+/*     position: static;
+    bottom: 100px; */
+}
+
+.div2 {
+    background-color: blueviolet;
+    position: sticky;
+    top: 100px;
+/*     position: fixed;
+    top: 50px; */
+/*     position: absolute; */
+/*     bottom: 50%;
+    right: 50%; */
+/*     left: 300px; */
+}
+
+.div3 {
+    background-color: tomato;
+}
+
+.cuadro {
+    border: 1px solid black;
+    width: 100px;
+    height: 100px; 
+}
+
+.padre {
+    width: 500px;
+    height: 400px;
+    position: relative;
+}

@@ -1,0 +1,14 @@
+.fondoT1{
+    background-color: palevioletred;
+}
+.fondoT2{
+    background-color: orangered;
+}
+.fondoT3{
+    background-color: grey;
+}
+.bordeT2{
+    border-radius: 4px;
+    border-color: black;
+    border-style: solid;
+}
