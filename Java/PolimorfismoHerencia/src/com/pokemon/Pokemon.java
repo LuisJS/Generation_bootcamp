@@ -1,6 +1,6 @@
 package com.pokemon;
 
-public class Pokemon {
+public abstract class Pokemon {
 	
 	private int id;
 	private int edad;
@@ -23,6 +23,8 @@ public class Pokemon {
 	public void dormir() {
 		System.out.println(nombre + " esta durmiendo");
 	}
+	
+	public abstract void saludar(String mensaje);
 	
 	public void atacar() {
 		System.out.println(nombre + " esta atacando");

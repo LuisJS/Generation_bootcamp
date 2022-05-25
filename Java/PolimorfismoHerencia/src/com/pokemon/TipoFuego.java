@@ -1,5 +1,11 @@
 package com.pokemon;
 
-public class TipoFuego {
-
+public interface TipoFuego {
+	
+	public abstract void lanzarLlamas();
+	
+	public abstract void araniar();
+	
+	public abstract void saludar();
+	
 }

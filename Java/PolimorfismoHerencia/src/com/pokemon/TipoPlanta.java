@@ -25,5 +25,9 @@ public class TipoPlanta extends Pokemon{
 		this.numeroHojas = numeroHojas;
 	}
 	
+	@Override
+	public void saludar(String mensaje) {
+		System.out.println(mensaje);
+	}
 	
 }
