@@ -27,7 +27,6 @@ inputs.forEach((input) => {
 	input.addEventListener('keyup', (e) => {
 		e.preventDefault();
 		console.log(e.target.name);
-
 		switch (e.target.name) {
 			case 'nombre':
 				//validar(e.target, expresiones.nombre);
