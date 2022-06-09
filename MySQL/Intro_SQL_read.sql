@@ -73,4 +73,4 @@ Operadores lógicos
 */
 
 Select * from actor where actor_id >50 and first_name LIKE "%n%";
-Select * from actor where first_name LIKE "%n%" or first_name like "%m%";
+Select * from actor where first_name LIKE "%n%" or first_name like "%m%";	alumno
