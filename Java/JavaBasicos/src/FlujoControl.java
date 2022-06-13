@@ -1,2 +1,3 @@
-package PACKAGE_NAME;public class FlujoControl {
+
+public class FlujoControl {
 }
